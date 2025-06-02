@@ -52,7 +52,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col h-screen bg-[#1e1e20] text-white">
+    <div className="flex flex-col h-[calc(100vh-40px)] bg-[#1e1e20] text-white">
       {/* Mode switcher */}
       <div className="p-4 border-b border-gray-700 bg-[#121212] flex gap-4">
         <div className="flex mx-auto w-fit px-3 py-2 bg-gray-800 rounded-full">
